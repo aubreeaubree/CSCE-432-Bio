@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost&family=Mynerve&family=Space+Mono&display=swap" rel="stylesheet">
+  <title>My Web Page</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Web Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#gallery"><strong>Gallery</strong></a></li>
+        <li><a href="#resume"><strong>Resume</strong></a></li>
+        <li><a href="#contact"><strong>Contact</strong></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img class="mePic" src="Dang_cute_pic_in_Rado-min.jpg" alt="Amazingly cute picture of the brilliant author of this website.">
+    <p>Hello, my name is Aubree Rodriguez. I am a Computing major with a Cybersecurity minor at Texas A&M University. I enjoy
+      front-end development and Geographic Information Systems (GIS). I believe that accessibility is an extremely important aspect of
+      computing because the benefits of technology should be available to everyone. Throughout this course, I hope to learn about how
+      we can design applications and websites to be easily usable by people of all different levels of ability and technological competency.
+      In particular, I would love to explore ways of making technology more accesible to the elderly so that the gap between generations
+      can be closed and the elderly can feel more connected to their friends, family, and the world at large!
+    </p>
+    <br><br>
+    <h3><strong>My interests:</strong></h3>
+    <ul class="orangeList">
+      <li> Creating games of my own from scratch </li>
+      <li> GIS and map making </li>
+      <li> Baking and cooking </li>
+      <li> Passing (hopefully with all A's) all of my classes</li>
+    </ul>
+    <br>
+    <h3><strong>My skills:</strong></h3>
+    <ol class="ordered">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>C++</li>
+    </ol>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <br>
+    <figure>
+      <img class="dashGuard" src="dashboard_guardrails.png" alt="Screenshot of Esri Dashboard I made for the City of Grapevine.">
+      <figcaption>Dashboard that plots all of the guardrails in the city.</figcaption>
+    </figure>
+    <br>
+    <figure>
+      <img class="parkDash" src="parking_dashboard.png" alt="Screenshot of another Esri Dashboard I made for the City of Grapevine.">
+      <figcaption>Dashboard that plots all of the parking spots on Main Street.</figcaption>
+    </figure>
+    
+  </section>
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="resumeCard">
+            <a href="AubreeRodriguezResume.pdf" target="_blank" rel="noopener noreferrer">
+                <img src="AubreeRodriguezResume.png.png" class="picResume">
+            </a>
+            <figcaption>Click on the above image to view my resume!</figcaption>
+    </div>
+  </section>
+  <br><br><br>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:hastingsjen323@gmail.com" method="get" enctype="text/plain">
+      <label for="subject">Name/Subject:</label>
+      <input type="text" id="subject" name="subject" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="body">Message:</label><br>
+      <textarea id="body" name="body" rows="4" cols="50" required></textarea><br>
+      <input type="submit" value="Send Email">
+    </form>
+  </section>
+  <a class="capyLink" href="https://images.app.goo.gl/LLbwXjVWEg6aKYB57">Inspiration for this site's design</a>
+
+  <div>
+    <img class="capybara" src="capybara-orange-removebg-preview.png" alt="8-bit capybara with an orange on its head">
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Aubree Rodriguez Page</p>
+  </footer>
+</body>
+</html>
